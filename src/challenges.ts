@@ -25,3 +25,19 @@ export function repeat(text: string, count: number): string {
 
   return newString;
 }
+
+export function add(a: number, b: number): number {
+  return a + b
+}
+
+export function isEven(n: number): boolean {
+  return n % 2 === 0
+}
+
+export function makeUser(name: string, age: number): { name: string, age: number } {
+  return { name, age }
+}
+
+export function printLength(text: string): number {
+  return text.length
+}
